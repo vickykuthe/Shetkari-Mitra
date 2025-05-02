@@ -1,0 +1,80 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings */
+  h2, h3 {
+    text-align: center;
+    color: #2e7d32;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  select, button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* List Styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #e8f5e9;
+    margin: 0.5rem 0;
+    padding: 10px;
+    border-left: 5px solid #66bb6a;
+    border-radius: 6px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      margin: 20px;
+      padding: 1.5rem;
+    }
+  
+    button, select {
+      font-size: 0.95rem;
+    }
+  }
+  

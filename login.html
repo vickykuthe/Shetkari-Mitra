@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="images/farmloginicon.jpg">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required />
+            <br>
+            <label for="role">Role:</label>
+            <select id="role" required>
+              <option value="">Select Role</option>
+              <option value="admin">Admin</option>
+              <option value="farmer">Farmer</option>
+            </select>
+            <button type="submit">Login</button>
+          </form>
+          
+         
+            <!-- Register Link -->
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </div>
+    
+    <script>
+    if (role === "admin") {
+        window.location.href = "admin-dashboard.html";
+    } else if (role === "farmer") {
+        window.location.href = "user-dashboard.html";
+    }
+
+</script>      
+<script type="module" src="login.js"></script>
+
+
+     
+</body>
+</html>

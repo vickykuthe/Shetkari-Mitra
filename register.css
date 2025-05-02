@@ -1,0 +1,139 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/4293228.jpg');
+    background-position: center;
+    margin: 0;
+}
+
+/* Register Container */
+.register-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+}
+
+/* Form Headings */
+h2 {
+    color: #02a212d1;
+    margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Label Styling */
+.input-container label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input Fields and Select Box */
+.input-container input,
+.input-container select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+}
+
+/* Icons inside Input Fields */
+.input-container i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+/* DOB input alignment */
+.input-container input[type="date"] {
+    text-align: center;
+}
+
+/* Special Fix for DOB and Select Gender */
+.dob-container,
+.gender-container {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.dob-container label,
+.gender-container label {
+    font-weight: bold;
+    flex: 1;
+}
+
+.dob-container input,
+.gender-container select {
+    flex: 2;
+}
+
+/* Password Toggle */
+#togglePassword {
+    cursor: pointer;
+}
+
+/* Remember Me */
+.consent {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    justify-content: start;
+}
+
+.consent input {
+    margin-right: 10px;
+}
+
+/* Register Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1a0366;
+}
+
+/* Login Link */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

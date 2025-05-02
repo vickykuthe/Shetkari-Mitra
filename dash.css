@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background:url('hero-image.png');
+    background-size: cover;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(7, 7, 7, 0.1);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+/* Logout Button */
+#logoutBtn {
+    background: #041283;
+    color: rgb(231, 205, 205);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#logoutBtn:hover {
+    background: #05a820;
+}
+
+/* Container Styling */
+.container {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form Styling */
+#schemeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    background: #011c68;
+    color: rgb(225, 218, 218);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #028f15;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    input {
+        width: 100%;
+    }
+}

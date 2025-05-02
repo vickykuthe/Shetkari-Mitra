@@ -1,0 +1,65 @@
+/* styles.css for Admin Dashboard */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2E7D32;
+  }
+  
+  section {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h3 {
+    margin-bottom: 1rem;
+    color: #388E3C;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #2E7D32;
+  }
+  
+  ul#pendingAppsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul#pendingAppsList li {
+    background-color: #e8f5e9;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 5px solid #66bb6a;
+  }
+  

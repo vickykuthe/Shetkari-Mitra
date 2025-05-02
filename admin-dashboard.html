@@ -1,0 +1,40 @@
+<!-- admin-dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Admin Dashboard | Farmer Schemes</title>
+  <link rel="icon" href="images/adminicon.png">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <h2>Welcome, Admin</h2>
+
+  <section>
+    <h3>Post Crop Details</h3>
+    <form id="cropForm">
+      <input type="text" id="cropName" placeholder="Crop Name" required />
+      <input type="text" id="season" placeholder="Season" required />
+      <button type="submit">Add Crop</button>
+    </form>
+  </section>
+
+  <section>
+    <h3>Post Government Schemes</h3>
+    <form id="schemeForm">
+      <input type="text" id="schemeTitle" placeholder="Scheme Title" required />
+      <input type="text" id="schemeDescription" placeholder="Description" required />
+      <button type="submit">Add Scheme</button>
+    </form>
+  </section>
+
+  <section>
+    <h3>Pending Applications</h3>
+    <ul id="pendingAppsList"></ul>
+  </section>
+
+  <script type="module" src="admin.js"></script>
+</body>
+</html>

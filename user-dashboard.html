@@ -1,0 +1,47 @@
+<!-- user-dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>User Dashboard | Farmer Schemes</title>
+  <link rel="icon" href="images/usericon.webp">
+  <link rel="stylesheet" href="user.css">
+  <link rel="apply" href="apply-scheme.html">
+</head>
+<body>
+  <h2>Welcome, Farmer</h2>
+
+  <section>
+    <h3>Crop Details</h3>
+    <ul id="cropList"></ul>
+  </section>
+
+  <section>
+    <h3>Government Schemes</h3>
+    <ul id="schemeList"></ul>
+  </section>
+
+  <section>
+    <h3>Apply for Scheme</h3>
+    <form id="schemeApplicationForm">
+        <label for="schemeSelect">Scheme List:</label>
+        <select id="schemeSelect" required>
+          <option value="">-- Select a scheme --</option>
+        </select>
+        <button type="submit">Apply</button><a href="apply-scheme.html">Apply scheme</a>
+
+
+      </form>
+      
+  </section>
+
+  <section>
+    <h3>Your Applications</h3>
+    <ul id="applicationStatusList"></ul>
+  </section>
+
+  <script type="module" src="user.js"></script>
+  <script type="module" src="apply.js"></script>
+</body>
+</html>
